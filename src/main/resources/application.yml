@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://lamdt-mysql-server.database.windows.net:1433;database=mysql-db
+    username: lamdt
+    password: Bxz571993
+    platform: mssql
+  jpa:
+    show-sql: false
+
